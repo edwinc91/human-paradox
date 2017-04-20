@@ -1,0 +1,27 @@
+body {
+  /*background-color: black;*/
+}
+#header > div {
+  background-color: white;
+  height: 5rem;
+  position: absolute;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  /*display: none;*/
+}
+
+img {
+  /*min-width: 100%;*/
+  max-width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+span {
+  position: relative;
+  z-index: 2;
+  top: -28em;
+  left: 50%;
+  color: white;
+}
